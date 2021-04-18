@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <title>Le nombre Mystère</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header class="main-header">
+            <h1>Saurez-vous trouver le nombre mystère ?</h1>
+            <figure>
+                <img src="img/nombre_mystere.png" alt="logo">
+            </figure>
+        </header>
+        <main>
+            <article class="form">
+                <section class="container-top">
+                    <p>Il s'agit d'un nombre entre 1 et 6 !! </p>
+                    <p>Entrez un nombre :</p>
+                    <div class="container">
+                        <textarea rows="1" id="numberTest" class="numberTest" maxlength="1"></textarea>
+                        <button type="submit" class="numberSubmit" id="numberSubmit">Play</button>
+                    </div>
+                </section>
+            </article>
+            <article>
+                <p id="reg" class="affichage"></p>
+            </article>
+        </main>
+        <script type="text/javascript" src="app.js"></script>
+    </div>
+</body>
+
+</html>

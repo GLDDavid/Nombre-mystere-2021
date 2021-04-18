@@ -1,0 +1,79 @@
+/**** reset ******/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/**** fin du reset ***/
+body {
+    background: linear-gradient(to top, black, cyan);
+    min-height: 60em;
+}
+
+#wrapper {
+    width: 600px;
+    height: 38em;
+    margin: 5em auto;
+    text-align: center;
+    background-color: RGBa(51, 145, 190, 0.5);
+    box-shadow: -5px 5px #676964;
+}
+
+.main-header {
+    margin: 0 auto;
+    color: darkslategray;
+    text-shadow: 2px 2px #000;
+    font-size: 1.5em;
+    min-height: 5em;
+    padding: 0.5em;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+img {
+    width: 50%;
+}
+
+main {
+    min-height: 20em;
+}
+
+.container-top {
+    min-height: 10em;
+    border: 3px solid #087820;
+    margin: 1em 0.5em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+textarea,
+button {
+    text-align: center;
+    width: 8em;
+    height: 1.5em;
+    margin: 0.5em;
+    background-color: RGBa(218, 247, 166, 0.5);
+    box-shadow: 2px 3px #000;
+}
+
+textarea {
+    height: 2em;
+    display: block;
+    margin: 1em auto;
+    padding: 0.3em;
+    font-size: 1.2em;
+}
+
+button {
+    font-size: 1.3em;
+}
+
+.affichage {
+    margin: 1em;
+    font-size: 1.5em;
+}
